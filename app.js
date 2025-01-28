@@ -71,9 +71,9 @@ btnHold.addEventListener("click", () => {
 			document
 				.querySelector(`.player--${activePlayer}`)
 				.classList.remove("player--active");
-			// diceEl.classList.add("hidden");
-			// btnRoll.classList.add("hidden");
-			// btnHold.classList.add("hidden");
+			diceEl.classList.add("hidden");
+			btnRoll.classList.add("hidden");
+			btnHold.classList.add("hidden");
 		} else {
 			// Switch to the next palyer
 			switchPlayer();
